@@ -7,14 +7,10 @@ public class Dictionary extends Document{
         this.language=language;
     }
 
-    public String getLanguage() {
-        return language;
-    }
+    public String getLanguage() {return language;}
 
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-    @Override
+    public void setLanguage(String language) {this.language =language;}
+    
     public String toString() {
         return getNumEnrg()+" "+getTitle()+getLanguage();
     }
