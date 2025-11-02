@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args){
         System.out.println("=== Stack Test ===");
         BookStack stack=new BookStack();
-        Book book1 =new Book("The Hobbit", "J.R.R. Tolkien",1937);
-        Book book2=new Book("1984", "George Orwell",1949);
-        Book book3=new Book("Clean Code", "Robert C. Martin",2008);
+        Book book1 =new Book("buk1", "t1",2000);
+        Book book2=new Book("bukk2", "t2",2010);
+        Book book3=new Book("pcr", "rad",2025);
         stack.push(book1);
         stack.push(book2);
         stack.push(book3);
