@@ -9,22 +9,14 @@ public class Magazine extends Document{
         this.year=year;
     }
 
-    public String getMonth() {
-        return month;
-    }
+    public String getMonth() {return month;}
 
-    public void setMonth(String month) {
-        this.month = month;
-    }
+    public void setMonth(String month) {this.month = month;}
 
-    public int getyear() {
-        return year;
-    }
+    public int getyear() {return year;}
 
-    public void setyear(int year) {
-        this.year = year;
-    }
-    @Override
+    public void setyear(int year) {this.year = year;}
+    
     public String toString() {
         return getNumEnrg()+" "+getTitle()+" "+getMonth()+" "+getyear();
     }
