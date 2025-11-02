@@ -9,23 +9,14 @@ public class Document {
         this.numEnrg=counter++;
     }
 
-    public String getTitle() {
-        return title;
-    }
+    public String getTitle() {return title;}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+    public void setTitle(String title) {this.title=title;}
 
-    public int getNumEnrg() {
-        return numEnrg;
-    }
+    public int getNumEnrg() {return numEnrg;}
 
-    public void setNumEnrg(int numEnrg) {
-        this.numEnrg = numEnrg;
-    }
+    public void setNumEnrg(int numEnrg) {this.numEnrg = numEnrg;}
 
-    @Override
     public String toString() {
         return getNumEnrg()+" "+getTitle();
     }
