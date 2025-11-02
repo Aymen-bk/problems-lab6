@@ -9,17 +9,10 @@ public class Place {
         this.distance = distance;
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
-    public int getDistance() {
-        return distance;
-    }
+    public int getDistance() {return distance;}
 
-    @Override
-    public String toString() {
-        return name + " (" + distance + " km)";
-    }
+    public String toString() {return name + " (" + distance + " km)";}
 
 }
